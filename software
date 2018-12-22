@@ -1,0 +1,7 @@
+# LaTex
+  Install TeX Live
+    sudo apt-get install texlive-full
+  Install Texmaker
+    sudo apt-get install texmaker
+
+# 
