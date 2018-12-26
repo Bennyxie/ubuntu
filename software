@@ -1,7 +1,40 @@
+Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97
+
 # LaTex
   Install TeX Live
     sudo apt-get install texlive-full
   Install Texmaker
     sudo apt-get install texmaker
 
-# 
+# Google-chrome-stable
+  1. add download source to system source.list
+    sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+  2. add key
+    wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+  3. update list
+    sudo apt-get update
+  4. install
+  sudo apt-get install google-chrome-stable
+  5. start
+    /usr/bin/google-chrome-stable
+    
+# sougoupinyin
+  1. download .deb from https://pinyin.sogou.com/linux/
+  2. add ppa source
+    sudo add-apt-repository ppa:fcitx-team/nightly
+  3. install fcitx
+    sudo apt-get -y install fcitx
+  4. install .deb package
+    sudo dpkg -i sougou_xxx.deb
+  5. if fail
+    sudo apt-get -f install
+  6. reboot and config
+  
+ # netease-cloud-music
+  1. download .deb from http://music.163.com/#/download
+  2. install package
+    sudo dpkg -i .deb
+  3. if fail
+    sudo apt-get -f install
+    
+ 
