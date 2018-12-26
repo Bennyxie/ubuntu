@@ -1,0 +1,11 @@
+# 显卡驱动
+sudo service lightdm stop
+sudo ./NVIDIA-Linux-xx.run  一直回车就行
+sudo service lightdm start
+
+# ssh连接不上的原因之一
+  如果不幸安装了其他的shell，然后又卸载，你会发现该用户无法登陆，密码失效等等一系列问题
+  建议查看改用的shell是否修改为bash
+  cat /etc/passwd
+  修改用户的shell
+  usermod -s(-shell) /bin/bash username
