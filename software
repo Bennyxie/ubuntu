@@ -63,3 +63,7 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
 # oh-my-zsh  Shell（慎重考虑）
   https://github.com/robbyrussell/oh-my-zsh
 
+# Atom 
+  sudo add-apt-repository ppa:webupd8team/atom
+  sudo apt update
+  sudo apt install atom
