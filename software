@@ -1,10 +1,20 @@
 Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%8C%87%E5%8D%97
 
+# git
+  sudo apt install git
+
+# WPS
+  1. delete libreoffice
+    sudo apt-get autoremove libreoffice-common
+  2. download .deb from http://www.wps.cn/product/wpslinux/#
+  3. install package
+    sudo dpkg -i .deb
+
 # LaTex
-  Install TeX Live
-    sudo apt-get install texlive-full
-  Install Texmaker
-    sudo apt-get install texmaker
+  1. Install TeX Live
+     sudo apt-get install texlive-full
+  2. Install Texmaker
+     sudo apt-get install texmaker
 
 # Google-chrome-stable
   1. add download source to system source.list
@@ -14,7 +24,7 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
   3. update list
     sudo apt-get update
   4. install
-  sudo apt-get install google-chrome-stable
+    sudo apt-get install google-chrome-stable
   5. start
     /usr/bin/google-chrome-stable
     
@@ -37,4 +47,19 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
   3. if fail
     sudo apt-get -f install
     
+ # axel  multi-threaded download tool <--> wget
+  sudo apt-get install axel  
+
+# VLC
+  sudo apt-get install vlc -y
+  附带暗转媒体解码框架
+  sudo apt-add-repository ppa:mc3man/trusty-media
+  sudo apt-get update
+  sudo apt-get install Ubuntu-restricted-extras ffmpeg gstreamer0.10-plugins-ugly libavcodec-extra-54 libvdpau-va-gl1 libmad0 mpg321 gstreamer1.0-libav
  
+# figlet 是一个将字符串在终端生成一个logo的终端工具
+  sudo apt-get install figlet
+
+# oh-my-zsh  Shell（慎重考虑）
+  https://github.com/robbyrussell/oh-my-zsh
+
