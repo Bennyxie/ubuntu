@@ -67,3 +67,13 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
   sudo add-apt-repository ppa:webupd8team/atom
   sudo apt update
   sudo apt install atom
+ 
+# redshift redshift-gtk 根据日出日落时间(设定经纬度)自动调节电脑屏幕的亮度、色彩(色温)，保护眼睛
+ sudo apt-get install redshift
+ 参数设置：redshift-gtk -l 39.92:116.46 -t 5500:4500
+
+# rednotebook 桌面日记本
+  sudo apt install rednotebook
+ 
+# remarkable Markdown编辑器
+  sudo apt-get install remarkable
