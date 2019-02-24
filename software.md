@@ -64,9 +64,7 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
     https://github.com/robbyrussell/oh-my-zsh
 
 # Atom 
-    sudo add-apt-repository ppa:webupd8team/atom
-    sudo apt update
-    sudo apt install atom
+    to be continued
  
 # redshift redshift-gtk 根据日出日落时间(设定经纬度)自动调节电脑屏幕的亮度、色彩(色温)，保护眼睛
      sudo apt-get install redshift
