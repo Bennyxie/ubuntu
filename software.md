@@ -73,5 +73,5 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
 # rednotebook 桌面日记本
     sudo apt install rednotebook
  
-# remarkable Markdown编辑器
-    sudo apt-get install remarkable
+# workrave 保护视力
+    sudo apt-get install workrave 
