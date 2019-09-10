@@ -15,6 +15,9 @@ Ubuntu 软件安装指南（中文）http://wiki.ubuntu.org.cn/%E8%BD%AF%E4%BB%B
        sudo apt-get install texlive-full
     2. Install Texmaker
        sudo apt-get install texmaker
+  
+# markdown editer (ReText)
+    sudo apt-get install retext
 
 # Google-chrome-stable
     1. add download source to system source.list
