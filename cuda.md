@@ -21,7 +21,7 @@
     2.1
 3. Run the installer 
   sudo sh cuda_8.0.61_375.26_linux.run
-3. Follow the command-line prompts
+4. Follow the command-line prompts
   EULA Acceptance
   CUDA Driver installation
   CUDA Toolkit installation, location, and /usr/local/cuda symbolic link
@@ -30,5 +30,13 @@
   Component         Default Installation Directory
   CUDA Toolkit     /usr/local/cuda-8.0
   CUDA Samples     $(HOME)/NVIDIA_CUDA-8.0_Samples
-3.check cuda
+5.check cuda
   cat /usr/local/cuda/version.txt
+  nvcc -V
+  
+# multiple version CUDA
+1. 设置cuda的PATH为/usr/local/cuda而不是/usr/local/cuda-8.0或其他
+2. 在切换cuda版本时
+  - rm -rf /usr/local/cuda#删除之前创建的软链接
+  - sudo ln -s /usr/local/cuda-8.0/ /usr/local/cuda/
+  - nvcc --V #查看当前 cuda 版本
