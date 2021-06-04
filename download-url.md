@@ -13,6 +13,7 @@ Initializing download: http://www.sample-videos.com/video/mp4/720/big_buck_bunny
 
 ## 2. wget
 ##### Example
+
 ```
 $ wget http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4 
 ```
@@ -30,6 +31,7 @@ $ wget --ftp-user=<user_name> --ftp-password=<Give_password> Download-url-addres
 ```
 
 ## 3. Curl
+
 ##### Example
 ```
 $ curl -o um.mp4 http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_1mb.mp4 
